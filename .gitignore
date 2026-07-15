@@ -1,0 +1,43 @@
+# Raw datasets
+data/*.csv
+data/*.zip
+
+# Keep the data directory in the repository
+!data/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Streamlit local configuration and secrets
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Raw datasets in nested data folders
+data/**/*.csv
+data/**/*.zip
